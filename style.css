@@ -1,3 +1,6 @@
-form{
-   hr{border: 10px solid green;}
+form {
+    border: 10px solid red;
+}
+hr {
+    border: 10px solid green;
 }
