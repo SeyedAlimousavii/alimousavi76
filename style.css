@@ -9,23 +9,7 @@ div.asgar{
 article.asgar{
     border-radius: 50px;
 }
-.akbar {
-    background:rgb(204, 247, 125);
-    border: 5px solid black;
-    border-radius: 50%;
-    color: rgb(0, 21, 255);
-    text-align: center;
-    box-shadow: 0 0 10px rgb(66, 189, 76);
-}
-.asgar{
 
-    background:rgb(240, 67, 162);
-    border-radius: 25px;
-    color: white;
-    border: 5px solid black;
-    text-align: center;
-    box-shadow: 0 0 10px rgb(194, 61, 138);
-}
 .kahe
 {    width: 100px;
     height: 100px;
