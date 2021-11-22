@@ -1,29 +1,24 @@
 .akbar {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    margin: 10px;
     background:rgb(204, 247, 125);
     border: 5px solid black;
     border-radius: 50%;
     color: rgb(0, 21, 255);
     text-align: center;
-    font-size: 24px;
     box-shadow: 0 0 10px rgb(66, 189, 76);
-
 }
 .asgar{
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    margin: 10px;
+
     background:rgb(240, 67, 162);
     border-radius: 25px;
     color: white;
     border: 5px solid black;
     text-align: center;
-    font-size: 24px;
-
     box-shadow: 0 0 10px rgb(194, 61, 138);
-
+}
+.kahe
+{    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
 }
