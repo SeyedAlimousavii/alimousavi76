@@ -2,8 +2,13 @@
     opacity: 0.6;
 }
 
+div.asgar{
+    border-radius: 10px;
+}
 
-
+article.asgar{
+    border-radius: 50px;
+}
 .akbar {
     background:rgb(204, 247, 125);
     border: 5px solid black;
