@@ -16,4 +16,10 @@ article.asgar{
     padding: 20px;
     margin: 10px;
     font-size: 24px;
+    background:rgb(204, 247, 125);
+    border: 5px solid black;
+    border-radius: 50%;
+    color: rgb(0, 21, 255);
+    text-align: center;
+    box-shadow: 0 0 10px rgb(66, 189, 76);
 }
