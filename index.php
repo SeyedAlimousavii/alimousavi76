@@ -1,6 +1,6 @@
 
 <?php
-$x = "ali";
+$x = 13.2;
 
 echo "hello".$x;
 ?>
