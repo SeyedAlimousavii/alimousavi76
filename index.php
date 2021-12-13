@@ -1,4 +1,7 @@
 
 <?php
-echo "my first";
+$x = "ali";
+
+
+echo $x;
 ?>
