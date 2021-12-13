@@ -2,5 +2,5 @@
 <?php
 $x = "ali";
 
-echo $x;
+echo "hello".$x;
 ?>
