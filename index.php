@@ -1,15 +1,27 @@
 <?php
+if ($_post['Uname']=='admin') {
+    if ($_post['pas']=='1234') {
+       echo "welcome";
+    }
+    else {
+        echo "Password is wrong";
+    }
+}
+else {
+    echo "Username is wrong";
+}
 
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <form action="/action_page.php">
-            <label for="fname">Username:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Password:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
+        <form action="index.php" method="POST">
+            <label for="Uname">Username:</label><br>
+            <input type="text" id="Uname" name="Uname"><br>
+            <label for="pas">Password:</label><br>
+            <input type="text" id="pas" name="pas"><br><br>
+
             <input type="submit" value="Submit">
         </form> 
 
