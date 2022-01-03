@@ -7,7 +7,7 @@
 <body>
 
 
-
+<hr>
     <form action="index.php" method="GET">
         <label for="fname">First number:</label><br>
         <input type="number" id="fname" name="num1" ><br>
