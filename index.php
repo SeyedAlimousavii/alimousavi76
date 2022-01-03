@@ -2,5 +2,5 @@
 <?php
 
 
-echo "hello ".$x;
+echo "hello ";
 ?>
