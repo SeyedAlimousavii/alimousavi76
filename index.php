@@ -25,7 +25,7 @@
             <label for="pas">Password:</label><br>
             <input type="text" id="pas" name="pas"><br><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"><br>
             <?php echo "$a"?>
         </form> 
 
