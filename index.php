@@ -1,6 +1,6 @@
 
 <?php
- echo $_GET['name1'+'name2'];
+ echo $_GET['num1']+$_GET['num2'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,9 +10,9 @@
 
     <form action="index.php" method="GET">
         <label for="fname">First number:</label><br>
-        <input type="text" id="fname" name1="name1" ><br>
+        <input type="number" id="fname" name="num1" ><br>
         <label for="lname">Second name:</label><br>
-        <input type="text" id="lname" name2="name2" ><br><br>
+        <input type="number" id="lname" name="num2" ><br><br>
         <input type="submit" value="Submit">
 </form> 
 
