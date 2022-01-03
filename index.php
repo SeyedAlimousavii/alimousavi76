@@ -1,15 +1,17 @@
 <?php
-if ($_POST['Uname']=='admin') {
-    if ($_POST['pas']=='1234') {
-       echo "welcome";
-    }
-    else {
-        echo "Password is wrong";
-    }
-}
-else {
-    echo "Username is wrong";
-}
+        if ($_POST['Uname']=='admin') 
+        {
+                    if ($_POST['pas']=='1234') {
+                    $a='welcome';
+                    }
+                    else {
+                        $a='pasword is wrong';
+                    }
+        }
+        else
+        {
+                $a='Username is wrong';
+        }
 
 
 ?>
@@ -24,6 +26,7 @@ else {
             <input type="text" id="pas" name="pas"><br><br>
 
             <input type="submit" value="Submit">
+            <?php echo "$a"?>
         </form> 
 
 </head>
