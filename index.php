@@ -3,6 +3,15 @@
  if ($_POST['mode'] == 1) {
      echo $_POST['num1']+$_POST['num2'];
  }
+ elseif ($_POST['mode'] == 2) {
+    echo $_POST['num1']-$_POST['num2'];
+ }
+ elseif ($_POST['mode'] == 3) {
+    echo $_POST['num1']*$_POST['num2'];
+}
+elseif ($_POST['mode'] == 4) {
+    echo $_POST['num1']/$_POST['num2'];
+}
 ?>
 <!DOCTYPE html>
 <html>
