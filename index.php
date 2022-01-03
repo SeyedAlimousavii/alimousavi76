@@ -23,6 +23,7 @@
         <label for="mines">mines</label><br>
         <input type="radio" id="multipul" name="mode" value="3">
         <label for="multipul">multipul</label>
+        <br>
         <input type="radio" id="Taghsim" name="mode" value="4">
         <label for="Taghsim">Taghsim</label>
 </form> 
