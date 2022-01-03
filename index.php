@@ -7,9 +7,9 @@
 <head>
         <form action="/action_page.php">
             <label for="fname">Username:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
+            <input type="text" id="fname" name="fname" ><br>
             <label for="lname">Password:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="text" id="lname" name="lname"><br><br>
             <input type="submit" value="Submit">
         </form> 
 
